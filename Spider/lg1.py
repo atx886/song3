@@ -120,11 +120,7 @@ def cs():
         # d = webdriver.Firefox()
         d.implicitly_wait(5)
         dl(writeexcle(c), d)
-        c += 1
-        if c <= 105:
-            mm = '000000'
-        else:
-            mm = "147369"
+        mm = "123456"
         zong += float(zz(d, mm))
         a -= 1
         d.close()
