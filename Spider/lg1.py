@@ -121,6 +121,7 @@ def cs():
         d.implicitly_wait(5)
         dl(writeexcle(c), d)
         mm = "123456"
+        c += 1
         zong += float(zz(d, mm))
         a -= 1
         d.close()
